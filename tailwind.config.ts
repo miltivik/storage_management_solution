@@ -72,7 +72,15 @@ const config: Config = {
   			}
   		},
   		fontFamily: {
-  			poppins: ["var(--font-poppins)"]
+  			poppins: [
+  				'var(--font-poppins)'
+  			],
+  			clash: [
+  				'var(--font-clashDisplay)'
+  			],
+			satoshi: [
+				'var(--font-satoshi)'
+			]
   		},
   		boxShadow: {
   			'drop-1': '0px 10px 30px 0px rgba(66, 71, 97, 0.1)',
@@ -92,10 +100,19 @@ const config: Config = {
   				'20%,50%': {
   					opacity: '0'
   				}
+  			},
+  			orbit: {
+  				'0%': {
+  					transform: 'rotate(calc(var(--angle) * 1deg)) translateY(calc(var(--radius) * 1px)) rotate(calc(var(--angle) * -1deg))'
+  				},
+  				'100%': {
+  					transform: 'rotate(calc(var(--angle) * 1deg + 360deg)) translateY(calc(var(--radius) * 1px)) rotate(calc((var(--angle) * -1deg) - 360deg))'
+  				}
   			}
   		},
   		animation: {
-  			'caret-blink': 'caret-blink 1.25s ease-out infinite'
+  			'caret-blink': 'caret-blink 1.25s ease-out infinite',
+  			orbit: 'orbit calc(var(--duration)*1s) linear infinite'
   		}
   	}
   },

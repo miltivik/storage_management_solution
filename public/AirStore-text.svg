@@ -1,0 +1,7 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="965px" height="300px">
+<rect  x="0" y="0" width="600" height="300" fill="white" fill-opacity="0.0" />
+<text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" transform="matrix( 5.16150419273603, 0, 0, 5.16150419273603,0.66842210389922, 222.831650626444)" font-size="50px"><tspan font-size="50px" font-family="Satoshi" font-weight="bold" fill="#FFFFFF">AirStore</tspan></text>
+</svg>

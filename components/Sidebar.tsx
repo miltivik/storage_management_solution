@@ -7,12 +7,12 @@ import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 
 interface Props {
-  fullName: string;
+  fullname: string;
   avatar: string;
   email: string;
 }
 
-const Sidebar = ({ fullName, avatar, email }: Props) => {
+const Sidebar = ({ fullname, avatar, email }: Props) => {
   const pathname = usePathname();
 
   return (
@@ -79,7 +79,7 @@ const Sidebar = ({ fullName, avatar, email }: Props) => {
           className="sidebar-user-avatar"
         />
         <div className="hidden lg:block">
-          <p className="subtitle-2 capitalize">{fullName}</p>
+          <p className="subtitle-2 capitalize">{fullname}</p>
           <p className="caption">{email}</p>
         </div>
       </div>

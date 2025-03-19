@@ -26,6 +26,14 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "cloud.appwrite.io",
       },
+      {
+        protocol: "https",
+        hostname: "static-00.iconduck.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.auraui.com",
+      },
     ],
   },
 };
