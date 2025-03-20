@@ -32,7 +32,7 @@ const commonStyles = {
   demoButton:
     "inline-flex items-center justify-center w-full px-6 py-3 mt-4 text-lg font-bold text-gray-900 transition-all duration-200 border-2 border-gray-400 sm:w-auto sm:mt-0 rounded-xl font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-900 focus:bg-gray-900 hover:text-white focus:text-white hover:border-gray-900 focus:border-gray-900",
   textMuted: "mt-8 text-lg text-gray-500 font-inter",
-  imageContainer: "relative mx-auto",
+  imageContainer: "relative mx-auto py-20",
   image: "transform scale-100 ",
 };
 
@@ -192,10 +192,6 @@ function Hero() {
                 Start Free
               </a>
             </div>
-
-            <p className={commonStyles.textMuted + " font-clash"}>
-              60 Days free trial · No credit card required
-            </p>
           </div>
         </div>
 
@@ -210,7 +206,7 @@ function Hero() {
                   alt="Illustration"
                 />
               </div>
-              <div className="absolute right-[310px] top-[0px]  flex items-center justify-center">
+              <div className="absolute right-[300px] top-[10px]  flex items-center justify-center">
                 <Star id="star" size="120" index="5" noise="false" color="black"/>
               </div>
               <div className="absolute left-[200px] bottom-[-100px]">
